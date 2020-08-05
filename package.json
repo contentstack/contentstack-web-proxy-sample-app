@@ -1,0 +1,28 @@
+{
+  "name": "proxy-based-sample-app-for-sharing-data-between-two-stacks",
+  "version": "1.0.0",
+  "description": "This is a demonstration on how we can build a simple webapp using proxy configuration between two stack using contentstack.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Contentstack",
+  "license": "MIT",
+  "dependencies": {
+    "async": "3.1.1",
+    "axios": "0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "4.17.1",
+    "node-fetch": "^2.6.0",
+    "nunjucks": "3.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.18.3",
+    "eslint-plugin-react-hooks": "1.7.0"
+  }
+}

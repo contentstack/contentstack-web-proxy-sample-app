@@ -1,0 +1,45 @@
+<!-- Home html -->
+
+{% extends "pages/index.html" %} {% block content %}
+<div
+  style="
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+  "
+>
+  <div class="container pt-3" style="margin-top: 42px;">
+    <h1>{{defaultEntries.home[0].heading}}</h1>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+      {{defaultEntries.home[0].description}}
+    </p>
+    <br />
+    <img
+      src="{{defaultEntries.home[0].image.url}}"
+      style="width: 1000px;"
+      ;
+      height="600px;"
+    />
+  </div>
+
+  <section id="news-latest" style="margin-right: 77px;">
+    <h2>Latest Blogs</h2>
+
+    <ol>
+      {% for latestBlog in entries%}
+      <li>
+        <a href="blogs{{latestBlog.url}}">
+          <img src="{{latestBlog.image.url}}" />
+          <h2 style="margin-top: 12px;">{{latestBlog.heading}}</h2>
+        </a>
+      </li>
+      {%endfor%}
+    </ol>
+  </section>
+</div>
+
+<br />
+{% endblock %}
