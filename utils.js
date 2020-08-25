@@ -64,7 +64,6 @@ const proxyRequest = (req, res, next) => {
     method: 'get',
     url: `${process.env.PROXYURL}/v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
     headers,
-    agent: new ProxyAgent(proxyUri),
   })
     .then((response) => {
       res.data = response.data;
