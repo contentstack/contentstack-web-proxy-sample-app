@@ -7,7 +7,7 @@ const express = require('express');
 const router = express.Router();
 const { getDefaultEntries, proxyRequest } = require('../utils');
 
-// Below middleware method will render the list of blogs in blog page from our proxy repsonse
+// Below middleware method will render the list of latest blogs on home page from our proxy repsonse
 
 router.get('/', getDefaultEntries, proxyRequest, (req, res, next) => {
   res.render('pages/blog.html', { defaultEntries: res.default, ...res.data });

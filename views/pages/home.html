@@ -3,28 +3,21 @@
 {% set title = defaultEntries.home_proxy[0].title %}
 
 {% extends "pages/index.html" %} {% block content %}
-<div
-  style="
+<div style="
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     text-align: justify;
-  "
->
+  ">
   <div class="container pt-3" style="margin-top: 42px;">
     <h1>{{defaultEntries.home_proxy[0].heading}}</h1>
     <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
       {{defaultEntries.home_proxy[0].description}}
     </p>
     <br />
-    <img
-      src="{{defaultEntries.home_proxy[0].image.url}}"
-      style="width: 1000px;"
-      ;
-      height="600px;"
-    />
+    <img src="{{defaultEntries.home_proxy[0].image.url}}" style="width: 1000px;" ; height="600px;" />
   </div>
 
   <section id="news-latest" style="margin-right: 77px;">

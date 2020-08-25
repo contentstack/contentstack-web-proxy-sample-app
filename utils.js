@@ -61,10 +61,10 @@ const proxyRequest = (req, res, next) => {
   };
 
   axios({
-    method: 'get',
-    url: `${process.env.PROXYURL}/v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
-    headers,
-  })
+      method: 'get',
+      url: `${process.env.PROXYURL}/v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
+      headers,
+    })
     .then((response) => {
       res.data = response.data;
       next();

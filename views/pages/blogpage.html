@@ -2,16 +2,13 @@
 
 {% extends "pages/index.html" %} {% block content %}
 
-<div
-  class="row"
-  style="
+<div class="row" style="
     margin-left: 18px;
     margin-right: 18px;
     margin-top: 30px;
     justify-content: center;
     text-align: center;
-  "
->
+  ">
   <div class="leftcolumn">
     <div class="card" style="border: none;">
       <h2 style="cursor: pointer; font-family: 'Barlow Condensed';">
@@ -21,13 +18,12 @@
         <img style="width: 600px; height: 480px;" src="{{content.image.url}}" />
       </div>
       <br />
-      <p style="font-family: 'Nunito', sans-serif; font-size: 24px; margin-left: 80px;margin-right: 80px; text-align: justify;">
+      <p
+        style="font-family: 'Nunito', sans-serif; font-size: 24px; margin-left: 80px;margin-right: 80px; text-align: justify;">
         {{content.body}}
       </p>
     </div>
-    <a style="text-decoration: none; color: rgb(80, 73, 73);" href="/"
-      >Return back..</a
-    >
+    <a style="text-decoration: none; color: rgb(80, 73, 73);" href="/">Return back..</a>
   </div>
 </div>
 

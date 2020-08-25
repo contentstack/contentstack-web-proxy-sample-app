@@ -8,7 +8,7 @@ const { getDefaultEntries, proxyRequest } = require('../utils');
 
 const router = express.Router();
 
-// Below middleware method will fetch the header & footer from the default entries mentioned in config
+// Below middleware method will fetch the header & footer from the default entries mentioned in config.js
 
 router.get('*', getDefaultEntries, proxyRequest, (req, res, next) => {
   const partialsData = { defaultEntries: res.default, ...res.data };
