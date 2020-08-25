@@ -13,7 +13,7 @@ const router = express.Router();
 router.get('*', getDefaultEntries, proxyRequest, (req, res, next) => {
   const partialsData = { defaultEntries: res.default, ...res.data };
   res.locals.header = partialsData.defaultEntries.header[0];
-  res.locals.footer = partialsData.defaultEntries.amp_footer[0];
+  res.locals.footer = partialsData.defaultEntries.footer[0];
   next();
 });
 

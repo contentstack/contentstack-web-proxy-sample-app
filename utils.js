@@ -2,7 +2,6 @@
  * Module dependencies.
  */
 
-const fetch = require('node-fetch');
 const axios = require('axios');
 const configVars = require('./config');
 
@@ -10,19 +9,16 @@ const configVars = require('./config');
 
 const getEntries = async (contentTypeUid, skip = 0, data = []) => {
   let Entries;
+  const options = {
+    method: 'GET',
+    headers: {
+      api_key: process.env.PARENT_STACK_APIKEY,
+      access_token: process.env.PARENT_STACK_DELIVERYTOKEN,
+    },
+  };
   try {
-    const response = await fetch(
-      `${process.env.PROXYURL}/v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=en-us&include_count=true&skip=${skip}`,
-      {
-        method: 'GET',
-        uri: `${process.env.PROXYURL}/v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=${configVars.contentstack.parentStack.DefaultLocale}&include_count=true&skip=${skip}`,
-        headers: {
-          api_key: process.env.PARENT_STACK_APIKEY,
-          access_token: process.env.PARENT_STACK_DELIVERYTOKEN,
-        },
-      },
-    );
-    Entries = await response.json();
+    const response = await axios(`${process.env.PROXYURL}/v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=en-us&include_count=true&skip=${skip}`, options);
+    Entries = await response.data;
   } catch (err) {
     return Promise.reject(err);
   }
@@ -41,15 +37,13 @@ const getEntries = async (contentTypeUid, skip = 0, data = []) => {
 const getDefaultEntries = async function (req, res, next) {
   res.default = {};
   for (
-    let i = 0;
-    i < configVars.contentstack.parentStack.DefaultContentTypes.length;
-    i++
+    let i = 0; i < configVars.contentstack.parentStack.defaultContentTypes.length; i++
   ) {
     try {
       res.default[
-        configVars.contentstack.parentStack.DefaultContentTypes[i]
+        configVars.contentstack.parentStack.defaultContentTypes[i]
       ] = await getEntries(
-        configVars.contentstack.parentStack.DefaultContentTypes[i],
+        configVars.contentstack.parentStack.defaultContentTypes[i],
       );
     } catch (err) {
       console.log(err);
@@ -70,6 +64,7 @@ const proxyRequest = (req, res, next) => {
     method: 'get',
     url: `${process.env.PROXYURL}/v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
     headers,
+    agent: new ProxyAgent(proxyUri),
   })
     .then((response) => {
       res.data = response.data;

@@ -1,5 +1,7 @@
 <!-- Home html -->
 
+{% set title = defaultEntries.home_proxy[0].title %}
+
 {% extends "pages/index.html" %} {% block content %}
 <div
   style="
@@ -12,13 +14,13 @@
   "
 >
   <div class="container pt-3" style="margin-top: 42px;">
-    <h1>{{defaultEntries.home[0].heading}}</h1>
+    <h1>{{defaultEntries.home_proxy[0].heading}}</h1>
     <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-      {{defaultEntries.home[0].description}}
+      {{defaultEntries.home_proxy[0].description}}
     </p>
     <br />
     <img
-      src="{{defaultEntries.home[0].image.url}}"
+      src="{{defaultEntries.home_proxy[0].image.url}}"
       style="width: 1000px;"
       ;
       height="600px;"
