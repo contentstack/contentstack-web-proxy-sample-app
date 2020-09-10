@@ -18,6 +18,9 @@ router.get('/', getDefaultEntries, proxyRequest, (req, res, next) => {
 
 router.get('/:url', getDefaultEntries, proxyRequest, (req, res, next) => {
   const blogPage = { defaultEntries: res.default, ...res.data };
+
+  // Below query will match the url from blogs entry as well as the browser url and save the result in variable 'dataContent'
+
   const dataContent = blogPage.entries.find((blog) => blog.url === `/${req.params.url}`);
   res.render('pages/blogpage.html', { content: dataContent });
   next();
