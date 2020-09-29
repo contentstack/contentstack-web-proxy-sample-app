@@ -17,5 +17,4 @@ router.get('/', getDefaultEntries, proxyRequest, (req, res, next) => {
   next();
 });
 
-
 module.exports = router;

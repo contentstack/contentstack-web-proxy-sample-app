@@ -8,7 +8,7 @@ module.exports = {
       defaultLocale: 'en-us',
       childStack: {
         childStackEntries: {
-          //Below provide the content-type uid for blogs as an entry from Stack B/Child Stack e.g. 'blogs'
+          // Below provide the content-type uid for blogs as an entry from Stack B/Child Stack e.g. 'blogs'
           blogContentTypeUid: '',
         },
       },
