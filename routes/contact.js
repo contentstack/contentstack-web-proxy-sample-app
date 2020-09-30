@@ -7,10 +7,10 @@ const {getDefaultEntries, proxyRequest} = require('../utils');
 
 const router = express.Router();
 
-// router handler for home page 
+// router handler for contact page 
 
 router.get('/', getDefaultEntries, proxyRequest, (req, res, next) => {
-  res.render('pages/home.html', {defaultEntries: res.default, ...res.data});
+  res.render('pages/contact.html', {defaultEntries: res.default, ...res.data});
 });
 
 module.exports = router;

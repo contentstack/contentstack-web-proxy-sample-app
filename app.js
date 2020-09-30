@@ -10,8 +10,6 @@ const logger = require('morgan');
 
 const dotenv = require('dotenv'); // for env variable
 
-let env = process.env.NODE_ENV || 'development';
-
 dotenv.config({
   path: './.env',
 });

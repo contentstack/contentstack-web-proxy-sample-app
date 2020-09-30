@@ -1,14 +1,8 @@
 <!-- Home Template -->
-{% set title = defaultEntries.home[0].title%} {% extends "pages/index.html" %} {% block
-content %}
 
-<!-- 
+{% set title = defaultEntries.home[0].title%} {% extends "pages/index.html" %}
+{% block content %}
 
-Here the 'homeData' variable consist of our data fetched from 
-Contentstack which is then used to render the respective h1, p image etc for our home page
-The data can be directly fed into the template using dot operator(JSON) & an array in some cases
-
--->
 
 <main role="main">
   <!-- Below section render's the banner of your home page once the data is fetched from Contentstack -->
@@ -28,25 +22,25 @@ The data can be directly fed into the template using dot operator(JSON) & an arr
     <hr class="featurette-divider" />
     <div class="row">
       <div class="center-info">
-        <h1>{{defaultEntries.home[0].about_section.heading}}</h1>
+        <h2>{{defaultEntries.home[0].about_section.heading}}</h2>
         <p>{{defaultEntries.home[0].about_section.description}}</p>
       </div>
     </div>
     <hr class="featurette-divider" />
     <!-- Below section render's the testimonial section of your home-page-->
     <div class="center-info">
-      <h1>{{entries[0].testimonials.heading}}</h1>
+      <h2>{{entries[0].blog.heading}}</h2>
     </div>
     <div class="row">
-      {% for testimonials in entries[0].testimonials.testimonial_details %}
+      {% for blog in entries[0].blog.blog_list %}
       <div class="col-lg-4">
-        <img class="testimonial-img" src="{{testimonials.image.url}}" />
+        <img class="testimonial-img" src="{{blog.image.url}}" />
 
-        <h2>{{testimonials.heading}}</h2>
-        <p>{{testimonials.description}}</p>
+        <h4>{{blog.heading}}</h4>
+        <p>{{blog.description}}</p>
         <p>
-          <a class="btn btn-secondary" href="#" role="button"
-            >View details &raquo;</a
+          <a class="btn btn-secondary" href="{{blog.cta.href}}" role="button"
+            >{{blog.cta.title}} &raquo;</a
           >
         </p>
       </div>

@@ -37,6 +37,7 @@ const getEntries = async (contentTypeUid, skip = 0, data = []) => {
   }
 };
 
+
 const getDefaultEntries = async function (req, res, next) {
   res.default = {};
   for (
@@ -57,7 +58,7 @@ const getDefaultEntries = async function (req, res, next) {
   next();
 };
 
-// get proxy entries function
+// get proxy entry function
 
 const proxyRequest = (req, res, next) => {
   const headers = {

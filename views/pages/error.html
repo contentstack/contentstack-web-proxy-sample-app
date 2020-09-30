@@ -1,24 +1,18 @@
 <!-- Error html page -->
 
-<!-- 
-
-Here the 'errorData' variable consist of our data fetched from 
-Contentstack which is then used to render the respective h1, p image etc for our error page
-The data can be directly fed into the template using dot operator(JSON) & an array in some cases
-
--->
-
-{% set title = errorData.title%} {% extends "pages/index.html" %} {% block
-content %}
+{% set title = defaultEntries.error[0].title%} {% extends "pages/index.html" %}
+{% block content %}
 <section class="main-content">
   <div class="page-wrap d-flex flex-row align-items-center">
     <div class="container">
       <div class="row justify-content-center error">
         <div class="col-md-12 text-center">
-          <span class="display-1 d-block">404</span>
-          <div class="mb-4 lead">Page not found</div>
-          <a href="/" class="btn btn-link"
-            >Back to home</a
+          <span class="display-1 d-block"
+            >{{defaultEntries.error[0].heading}}</span
+          >
+          <div class="mb-4 lead">{{defaultEntries.error[0].description}}</div>
+          <a href="{{defaultEntries.error[0].cta.href}}" class="btn btn-link"
+            >{{defaultEntries.error[0].cta.title}}</a
           >
         </div>
       </div>
