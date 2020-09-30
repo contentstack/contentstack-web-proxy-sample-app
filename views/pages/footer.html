@@ -1,15 +1,8 @@
-<!-- Footer html -->
+<!-- Footer template -->
 
-<div
-  class="footer-copyright"
-  style="
-    text-align: center;
-    background: #41424b;
-    padding: 2px 0;
-    margin: 20px 0 0;
-  "
->
-  <span>
-    <p style="color: rgb(255, 255, 255)">{{footer.footer}}</p>
-  </span>
-</div>
+<footer class="container">
+  <p class="float-right">
+    <a href="{{footer.href}}">{{footer.footer_section.link.title}}</a>
+  </p>
+  {{footer.footer_section.copyright_content[0]}}
+</footer>

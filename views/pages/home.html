@@ -1,36 +1,59 @@
-<!-- Home html -->
+<!-- Home Template -->
+{% set title = defaultEntries.home[0].title%} {% extends "pages/index.html" %} {% block
+content %}
 
-{% set title = defaultEntries.home[0].title %} {% extends
-"pages/index.html" %} {% block content %}
+<!-- 
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center">
-  <div class="container pt-3" style="margin-top: 42px">
-    <h1>{{defaultEntries.home[0].heading}}</h1>
-    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-      {{defaultEntries.home[0].description}}
-    </p>
-    <br />
-    <img
-      src="{{defaultEntries.home[0].image.url}}"
-      style="width: 1000px"
-      ;
-      height="600px;"
-    />
+Here the 'homeData' variable consist of our data fetched from 
+Contentstack which is then used to render the respective h1, p image etc for our home page
+The data can be directly fed into the template using dot operator(JSON) & an array in some cases
+
+-->
+
+<main role="main">
+  <!-- Below section render's the banner of your home page once the data is fetched from Contentstack -->
+  <section
+    class="jumbotron text-center"
+    style="
+  background-image: url({{defaultEntries.home[0].hero_banner_content.hero_banner_image.url}});"
+  >
+    <div class="container">
+      <h1>{{defaultEntries.home[0].hero_banner_content.banner_heading}}</h1>
+      <p class="lead bannerText">
+        {{defaultEntries.home[0].hero_banner_content.banner_content}}.
+      </p>
+    </div>
+  </section>
+  <div class="container marketing">
+    <hr class="featurette-divider" />
+    <div class="row">
+      <div class="center-info">
+        <h1>{{defaultEntries.home[0].about_section.heading}}</h1>
+        <p>{{defaultEntries.home[0].about_section.description}}</p>
+      </div>
+    </div>
+    <hr class="featurette-divider" />
+    <!-- Below section render's the testimonial section of your home-page-->
+    <div class="center-info">
+      <h1>{{entries[0].testimonials.heading}}</h1>
+    </div>
+    <div class="row">
+      {% for testimonials in entries[0].testimonials.testimonial_details %}
+      <div class="col-lg-4">
+        <img class="testimonial-img" src="{{testimonials.image.url}}" />
+
+        <h2>{{testimonials.heading}}</h2>
+        <p>{{testimonials.description}}</p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    <hr class="featurette-divider" />
   </div>
-  <div id="news-latest" style="margin-right: 77px">
-    <h2>{{defaultEntries.blog_page_heading[0].heading}}</h2>
-    <ol>
-      {% for latestBlog in entries%}
-      <li>
-        <a href="{{latestBlog.url}}">
-          <img src="{{latestBlog.image.url}}" />
-          <h2 style="margin-top: 12px">{{latestBlog.heading}}</h2>
-        </a>
-      </li>
-      {%endfor%}
-    </ol>
-  </div>
-</div>
+</main>
 
-<br />
 {% endblock %}

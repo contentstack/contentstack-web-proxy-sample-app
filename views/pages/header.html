@@ -1,34 +1,39 @@
-<!-- Header/nav bar -->
+<!-- Header template -->
 
-<nav
-  class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
-  style="padding-top: 0px; padding-bottom: 0px"
->
-  <a class="navbar-brand" href="/">
-    <img
-      style="width: 181px; height: 60px"
-      src="{{header.logo.image.url}}"
-      alt=""
-    />
-  </a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarNav"
-    aria-controls="navbarNav"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      {% for menu in header.navigation_section.navigation_bar %}
-      <li class="nav-item">
-        <a class="nav-link" href="{{menu.link}}">{{menu.title}}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</nav>
+<!-- 
+
+Here the 'header' variable consist of our data fetched from 
+Contentstack which is then used to render the respective h1, p image etc for our header block 
+The data can be directly fed into the template using dot operator(JSON) & an array in some cases
+
+res.locals provides you the ability to use variables within any of your templates
+
+-->
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">{{header.company_title.company_name}}</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        {% for menuItems in header.navigation_section.navigation_bar %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{menuItems.link.href}}"
+            >{{menuItems.title}}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

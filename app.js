@@ -4,26 +4,40 @@
 
 const app = require('express')();
 const nunjucks = require('nunjucks');
-const dotenv = require('dotenv');
-
 const express = require('express');
 const path = require('path');
+const logger = require('morgan');
+
+const dotenv = require('dotenv'); // for env variable
+
+let env = process.env.NODE_ENV || 'development';
 
 dotenv.config({
   path: './.env',
 });
 
+var PORT = process.env.PORT || 5000;
+
+/* View is the folder where all the html templates are stored nunjucks looks for that folder to render dynamic templates using the
+ * data from Contentstack.
+ */
+
 app.set('view engine', 'html');
+
+/*
+ * Make sure to have all your static assets like css files , images ,logo within your "public" folder
+ */
+
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(logger('dev'));
 
 nunjucks.configure(['views/'], {
   autoescape: false,
   express: app,
 });
 
-app.use(express.static(path.join(__dirname, '/public')));
-
 require('./routes')(app);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Start your browser on port ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log('Running on port', PORT);
 });

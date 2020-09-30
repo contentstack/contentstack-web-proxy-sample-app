@@ -1,7 +1,7 @@
 // routes
 
-module.exports = function (app) {
+module.exports = (app) => {
   app.use('/', require('../middleware'));
   app.use('/', require('./home'));
-  app.use('/', require('./blog'));
+  require('./error')(app);
 };

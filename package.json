@@ -1,8 +1,11 @@
 {
-  "name": "proxy-based-sample-app-for-sharing-data-between-two-stacks",
+  "name": "javascript-sample-app",
   "version": "1.0.0",
-  "description": "This is a demonstration on how we can build a simple webapp using proxy configuration between two stack using Contentstack.",
+  "description": "This is an example marketing website made using javascript/nodejs & Contentstack ",
   "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start": "node app.js",
     "format": "prettier  '**/*.{js,json,html,css}' --write",
@@ -11,17 +14,33 @@
   "author": "Contentstack",
   "license": "MIT",
   "dependencies": {
-    "async": "3.1.1",
-    "axios": "0.19.2",
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "contentstack": "^3.10.0",
     "dotenv": "^8.2.0",
-    "express": "4.17.1",
-    "nunjucks": "3.2.0",
-    "path": "^0.12.7",
-    "prettier": "^2.1.2"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "prettier-eslint": "^11.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,json,html,css}": [
+      "npm run format"
+    ]
   }
 }
