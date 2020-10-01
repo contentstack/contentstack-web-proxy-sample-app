@@ -1,7 +1,7 @@
 <!-- Contact page template -->
 
-{% set title = defaultEntries.contact[0].title %} {% extends "pages/index.html" %}
-{% block content %}
+{% set title = defaultEntries.contact[0].title %} {% extends "pages/index.html"
+%} {% block content %}
 
 <section
   class="jumbotron text-center"
@@ -9,16 +9,15 @@
   background-image: url({{defaultEntries.contact[0].banner.image.url}}); font-size: 65px;"
 >
   <div class="container">
-    <h1 style="font-size: 3.5rem;">{{defaultEntries.contact[0].banner.heading}}</h1>
+    <h1 style="font-size: 3.5rem">
+      {{defaultEntries.contact[0].banner.heading}}
+    </h1>
   </div>
 </section>
 
 <div class="container contact-form">
   <div class="contact-image">
-    <img
-      src="{{defaultEntries.contact[0].logo.url}}"
-      alt="logo"
-    />
+    <img src="{{defaultEntries.contact[0].logo.url}}" alt="logo" />
   </div>
   <form method="post">
     <h3>{{defaultEntries.contact[0].contact_message}}</h3>

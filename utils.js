@@ -37,7 +37,6 @@ const getEntries = async (contentTypeUid, skip = 0, data = []) => {
   }
 };
 
-
 const getDefaultEntries = async function (req, res, next) {
   res.default = {};
   for (
