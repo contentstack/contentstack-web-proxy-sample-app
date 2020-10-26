@@ -1,1 +1,59 @@
-{"bltf154485fec60aadb":{"title":"Home","url":"/","hero_banner_content":{"hero_banner_image":{"uid":"blta6638930710dbafb","created_at":"2020-10-08T10:47:53.295Z","updated_at":"2020-10-08T10:47:53.295Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/jpeg","file_size":"100780","tags":[],"filename":"photo-1484807352052-23338990c6c6.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blta6638930710dbafb/5f7eee5945c3f10eec5eb59e/photo-1484807352052-23338990c6c6.jpeg","ACL":[],"is_dir":false,"_version":1,"title":"photo-1484807352052-23338990c6c6.jpeg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:56:50.533Z","user":"blt828ab71437a69a50","version":1}]},"banner_heading":"Example Website","banner_content":"Content and influence over the customers are the most powerful things on the internet. Content creation and distribution creates an iconic digital experience.","cta":[{"title":"#","href":"#"}]},"about_section":{"heading":"Heading","description":"Content and influence over the customers are the most powerful things on the internet. Content creation and distribution create an iconic digital experience. However, if this experience is poor, it may result in becoming an obstacle to your customers'digital journey. It is therefore critical for every business to manage and deliver quality content to remain competitive. We are an industry-leading cloud platform, who delivers a better way for developers and marketers to manage content. We are a headless CMS trusted by many enterprises. We offer powerful capabilities for creation, management, and delivery of experience across a variety of channels. Our system allows content managers and developers to work individually without relying on each other for changes in the content."},"tags":[],"locale":"en-us","ACL":{},"uid":"bltf154485fec60aadb","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","created_at":"2020-10-08T10:48:05.100Z","updated_at":"2020-10-08T10:56:41.559Z","_version":2,"_in_progress":false,"publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:56:50.533Z","user":"blt828ab71437a69a50","version":2}]}}
+{
+  "bltf154485fec60aadb": {
+    "title": "Home",
+    "url": "/",
+    "hero_banner_content": {
+      "hero_banner_image": {
+        "uid": "blta6638930710dbafb",
+        "created_at": "2020-10-08T10:47:53.295Z",
+        "updated_at": "2020-10-08T10:47:53.295Z",
+        "created_by": "blt828ab71437a69a50",
+        "updated_by": "blt828ab71437a69a50",
+        "content_type": "image/jpeg",
+        "file_size": "100780",
+        "tags": [],
+        "filename": "photo-1484807352052-23338990c6c6.jpeg",
+        "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blta6638930710dbafb/5f7eee5945c3f10eec5eb59e/photo-1484807352052-23338990c6c6.jpeg",
+        "ACL": [],
+        "is_dir": false,
+        "_version": 1,
+        "title": "photo-1484807352052-23338990c6c6.jpeg",
+        "publish_details": [
+          {
+            "environment": "bltd46c24ff66132616",
+            "locale": "en-us",
+            "time": "2020-10-08T10:56:50.533Z",
+            "user": "blt828ab71437a69a50",
+            "version": 1
+          }
+        ]
+      },
+      "banner_heading": "Example Website",
+      "banner_content": "Content and influence over the customers are the most powerful things on the internet. Content creation and distribution creates an iconic digital experience.",
+      "cta": [{"title": "#", "href": "#"}]
+    },
+    "about_section": {
+      "heading": "Heading",
+      "description": "Content and influence over the customers are the most powerful things on the internet. Content creation and distribution create an iconic digital experience. However, if this experience is poor, it may result in becoming an obstacle to your customers'digital journey. It is therefore critical for every business to manage and deliver quality content to remain competitive. We are an industry-leading cloud platform, who delivers a better way for developers and marketers to manage content. We are a headless CMS trusted by many enterprises. We offer powerful capabilities for creation, management, and delivery of experience across a variety of channels. Our system allows content managers and developers to work individually without relying on each other for changes in the content."
+    },
+    "tags": [],
+    "locale": "en-us",
+    "ACL": {},
+    "uid": "bltf154485fec60aadb",
+    "created_by": "blt828ab71437a69a50",
+    "updated_by": "blt828ab71437a69a50",
+    "created_at": "2020-10-08T10:48:05.100Z",
+    "updated_at": "2020-10-08T10:56:41.559Z",
+    "_version": 2,
+    "_in_progress": false,
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-08T10:56:50.533Z",
+        "user": "blt828ab71437a69a50",
+        "version": 2
+      }
+    ]
+  }
+}

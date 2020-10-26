@@ -1,1 +1,42 @@
-{"blt5e7b5783376ac768":{"title":"Header","company_title":{"company_name":"Company","link":{"title":"Company","href":"/"}},"navigation_section":{"navigation_bar":[{"title":"Home","_metadata":{"uid":"csb2cef166cf1e7af8"},"link":{"title":"Home","href":"/"}},{"title":"Contact","_metadata":{"uid":"csb60f40daf8fb5364"},"link":{"title":"Contact","href":"/contact"}}]},"tags":[],"locale":"en-us","ACL":{},"uid":"blt5e7b5783376ac768","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","created_at":"2020-10-08T10:48:05.861Z","updated_at":"2020-10-08T10:48:05.861Z","_version":1,"_in_progress":false,"publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:56:09.501Z","user":"blt828ab71437a69a50","version":1}]}}
+{
+  "blt5e7b5783376ac768": {
+    "title": "Header",
+    "company_title": {
+      "company_name": "Company",
+      "link": {"title": "Company", "href": "/"}
+    },
+    "navigation_section": {
+      "navigation_bar": [
+        {
+          "title": "Home",
+          "_metadata": {"uid": "csb2cef166cf1e7af8"},
+          "link": {"title": "Home", "href": "/"}
+        },
+        {
+          "title": "Contact",
+          "_metadata": {"uid": "csb60f40daf8fb5364"},
+          "link": {"title": "Contact", "href": "/contact"}
+        }
+      ]
+    },
+    "tags": [],
+    "locale": "en-us",
+    "ACL": {},
+    "uid": "blt5e7b5783376ac768",
+    "created_by": "blt828ab71437a69a50",
+    "updated_by": "blt828ab71437a69a50",
+    "created_at": "2020-10-08T10:48:05.861Z",
+    "updated_at": "2020-10-08T10:48:05.861Z",
+    "_version": 1,
+    "_in_progress": false,
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-08T10:56:09.501Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  }
+}

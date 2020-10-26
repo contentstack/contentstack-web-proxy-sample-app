@@ -1,1 +1,58 @@
-[{"uid":"blt6380df973014ae0a","content_type":"image/jpeg","file_size":"92644","tags":[],"filename":"product-bg.jpg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg","ACL":{},"is_dir":false,"_version":1,"title":"product-bg.jpg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-09T07:08:01.012Z","user":"blt828ab71437a69a50","version":2}]},{"uid":"blt6380df973014ae0a","content_type":"image/jpeg","file_size":"92644","tags":[],"filename":"product-bg.jpg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg","ACL":{"others":{"read":false,"create":false,"update":false,"delete":false,"sub_acl":{"read":false,"create":false,"update":false,"delete":false,"publish":false}}},"is_dir":false,"_version":2,"title":"product-bg.jpg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-09T07:08:01.012Z","user":"blt828ab71437a69a50","version":2}]}]
+[
+  {
+    "uid": "blt6380df973014ae0a",
+    "content_type": "image/jpeg",
+    "file_size": "92644",
+    "tags": [],
+    "filename": "product-bg.jpg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg",
+    "ACL": {},
+    "is_dir": false,
+    "_version": 1,
+    "title": "product-bg.jpg",
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-09T07:08:01.012Z",
+        "user": "blt828ab71437a69a50",
+        "version": 2
+      }
+    ]
+  },
+  {
+    "uid": "blt6380df973014ae0a",
+    "content_type": "image/jpeg",
+    "file_size": "92644",
+    "tags": [],
+    "filename": "product-bg.jpg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg",
+    "ACL": {
+      "others": {
+        "read": false,
+        "create": false,
+        "update": false,
+        "delete": false,
+        "sub_acl": {
+          "read": false,
+          "create": false,
+          "update": false,
+          "delete": false,
+          "publish": false
+        }
+      }
+    },
+    "is_dir": false,
+    "_version": 2,
+    "title": "product-bg.jpg",
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-09T07:08:01.012Z",
+        "user": "blt828ab71437a69a50",
+        "version": 2
+      }
+    ]
+  }
+]

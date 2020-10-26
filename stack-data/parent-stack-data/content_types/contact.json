@@ -1,1 +1,95 @@
-{"title":"Contact","uid":"contact","schema":[{"display_name":"Title","uid":"title","data_type":"text","mandatory":true,"unique":true,"field_metadata":{"_default":true,"version":3},"multiple":false,"non_localizable":false},{"display_name":"URL","uid":"url","data_type":"text","mandatory":true,"field_metadata":{"_default":true,"version":3},"multiple":false,"unique":false,"non_localizable":false},{"data_type":"group","display_name":"Banner","field_metadata":{},"schema":[{"data_type":"file","display_name":"Image","uid":"image","extensions":[],"field_metadata":{"description":"","rich_text_type":"standard"},"multiple":false,"mandatory":false,"unique":false,"non_localizable":false},{"data_type":"text","display_name":"Heading","uid":"heading","field_metadata":{"description":"","default_value":"","version":3},"format":"","error_messages":{"format":""},"multiple":false,"mandatory":false,"unique":false,"non_localizable":false}],"uid":"banner","multiple":false,"mandatory":false,"unique":false,"non_localizable":false},{"data_type":"file","display_name":"Logo","uid":"logo","extensions":[],"field_metadata":{"description":"","rich_text_type":"standard"},"multiple":false,"mandatory":false,"unique":false,"non_localizable":false},{"data_type":"text","display_name":"Contact message","uid":"contact_message","field_metadata":{"description":"","default_value":"","version":3},"format":"","error_messages":{"format":""},"multiple":false,"mandatory":false,"unique":false,"non_localizable":false}],"description":"","options":{"is_page":true,"singleton":true,"title":"title","sub_title":[]}}
+{
+  "title": "Contact",
+  "uid": "contact",
+  "schema": [
+    {
+      "display_name": "Title",
+      "uid": "title",
+      "data_type": "text",
+      "mandatory": true,
+      "unique": true,
+      "field_metadata": {"_default": true, "version": 3},
+      "multiple": false,
+      "non_localizable": false
+    },
+    {
+      "display_name": "URL",
+      "uid": "url",
+      "data_type": "text",
+      "mandatory": true,
+      "field_metadata": {"_default": true, "version": 3},
+      "multiple": false,
+      "unique": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "group",
+      "display_name": "Banner",
+      "field_metadata": {},
+      "schema": [
+        {
+          "data_type": "file",
+          "display_name": "Image",
+          "uid": "image",
+          "extensions": [],
+          "field_metadata": {"description": "", "rich_text_type": "standard"},
+          "multiple": false,
+          "mandatory": false,
+          "unique": false,
+          "non_localizable": false
+        },
+        {
+          "data_type": "text",
+          "display_name": "Heading",
+          "uid": "heading",
+          "field_metadata": {
+            "description": "",
+            "default_value": "",
+            "version": 3
+          },
+          "format": "",
+          "error_messages": {"format": ""},
+          "multiple": false,
+          "mandatory": false,
+          "unique": false,
+          "non_localizable": false
+        }
+      ],
+      "uid": "banner",
+      "multiple": false,
+      "mandatory": false,
+      "unique": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "file",
+      "display_name": "Logo",
+      "uid": "logo",
+      "extensions": [],
+      "field_metadata": {"description": "", "rich_text_type": "standard"},
+      "multiple": false,
+      "mandatory": false,
+      "unique": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "text",
+      "display_name": "Contact message",
+      "uid": "contact_message",
+      "field_metadata": {"description": "", "default_value": "", "version": 3},
+      "format": "",
+      "error_messages": {"format": ""},
+      "multiple": false,
+      "mandatory": false,
+      "unique": false,
+      "non_localizable": false
+    }
+  ],
+  "description": "",
+  "options": {
+    "is_page": true,
+    "singleton": true,
+    "title": "title",
+    "sub_title": []
+  }
+}

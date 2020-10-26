@@ -1,7 +1,7 @@
 {
   "name": "proxy-based-sample-app-for-sharing-data-between-two-stacks",
   "version": "1.0.0",
-  "description": "This is a demonstration on how we can build a simple webapp using proxy configuration between two stack using Contentstack.",
+  "description": "This is a demonstration on how we can build a simple webapp using proxy configuration between two stack's using Contentstack.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

@@ -1,1 +1,23 @@
-[{"uid":"blt525ebf18d7b990ae","content_type":"image/svg+xml","file_size":"3037","tags":[],"filename":"contentstack-subnav-logo.svg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt525ebf18d7b990ae/5f7eee368701f06faae1f00a/contentstack-subnav-logo.svg","ACL":{},"is_dir":false,"_version":1,"title":"contentstack-subnav-logo.svg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:55:40.166Z","user":"blt828ab71437a69a50","version":1}]}]
+[
+  {
+    "uid": "blt525ebf18d7b990ae",
+    "content_type": "image/svg+xml",
+    "file_size": "3037",
+    "tags": [],
+    "filename": "contentstack-subnav-logo.svg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt525ebf18d7b990ae/5f7eee368701f06faae1f00a/contentstack-subnav-logo.svg",
+    "ACL": {},
+    "is_dir": false,
+    "_version": 1,
+    "title": "contentstack-subnav-logo.svg",
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-08T10:55:40.166Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  }
+]

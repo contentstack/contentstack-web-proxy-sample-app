@@ -1,1 +1,110 @@
-{"blt0ed457eb8a519f99":{"uid":"blt0ed457eb8a519f99","content_type":"image/jpeg","file_size":"191705","tags":[],"filename":"variation_one.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt0ed457eb8a519f99/5f74a89732c8bc0eabe0d0ab/variation_one.jpeg","ACL":{"roles":[],"others":{"read":false,"create":false,"update":false,"delete":false,"sub_acl":{"read":false,"create":false,"update":false,"delete":false,"publish":false}}},"is_dir":false,"_version":1,"title":"variation_one.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T15:48:54.088Z","user":"blt828ab71437a69a50","version":1}]},"bltf85946cacad0f314":{"uid":"bltf85946cacad0f314","content_type":"image/jpeg","file_size":"129240","tags":[],"filename":"photo-coffe.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/bltf85946cacad0f314/5f746b3832c8bc0eabe0d08f/photo-coffe.jpeg","ACL":{"roles":[],"others":{"read":false,"create":false,"update":false,"delete":false,"sub_acl":{"read":false,"create":false,"update":false,"delete":false,"publish":false}}},"is_dir":false,"_version":1,"title":"photo-coffe.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T11:27:38.331Z","user":"blt828ab71437a69a50","version":1}]},"blt9c1b3c9f8f92ff96":{"uid":"blt9c1b3c9f8f92ff96","content_type":"image/jpeg","file_size":"200547","tags":[],"filename":"variation_3.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt9c1b3c9f8f92ff96/5f746b9ab7f15f0eb6a34c33/variation_3.jpeg","ACL":{"roles":[],"others":{"read":false,"create":false,"update":false,"delete":false,"sub_acl":{"read":false,"create":false,"update":false,"delete":false,"publish":false}}},"is_dir":false,"_version":1,"title":"variation_3.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T11:27:38.331Z","user":"blt828ab71437a69a50","version":1}]}}
+{
+  "blt0ed457eb8a519f99": {
+    "uid": "blt0ed457eb8a519f99",
+    "content_type": "image/jpeg",
+    "file_size": "191705",
+    "tags": [],
+    "filename": "variation_one.jpeg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt0ed457eb8a519f99/5f74a89732c8bc0eabe0d0ab/variation_one.jpeg",
+    "ACL": {
+      "roles": [],
+      "others": {
+        "read": false,
+        "create": false,
+        "update": false,
+        "delete": false,
+        "sub_acl": {
+          "read": false,
+          "create": false,
+          "update": false,
+          "delete": false,
+          "publish": false
+        }
+      }
+    },
+    "is_dir": false,
+    "_version": 1,
+    "title": "variation_one.jpeg",
+    "publish_details": [
+      {
+        "environment": "blt06b642b5ef81890f",
+        "locale": "en-us",
+        "time": "2020-09-30T15:48:54.088Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  },
+  "bltf85946cacad0f314": {
+    "uid": "bltf85946cacad0f314",
+    "content_type": "image/jpeg",
+    "file_size": "129240",
+    "tags": [],
+    "filename": "photo-coffe.jpeg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/bltf85946cacad0f314/5f746b3832c8bc0eabe0d08f/photo-coffe.jpeg",
+    "ACL": {
+      "roles": [],
+      "others": {
+        "read": false,
+        "create": false,
+        "update": false,
+        "delete": false,
+        "sub_acl": {
+          "read": false,
+          "create": false,
+          "update": false,
+          "delete": false,
+          "publish": false
+        }
+      }
+    },
+    "is_dir": false,
+    "_version": 1,
+    "title": "photo-coffe.jpeg",
+    "publish_details": [
+      {
+        "environment": "blt06b642b5ef81890f",
+        "locale": "en-us",
+        "time": "2020-09-30T11:27:38.331Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  },
+  "blt9c1b3c9f8f92ff96": {
+    "uid": "blt9c1b3c9f8f92ff96",
+    "content_type": "image/jpeg",
+    "file_size": "200547",
+    "tags": [],
+    "filename": "variation_3.jpeg",
+    "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt9c1b3c9f8f92ff96/5f746b9ab7f15f0eb6a34c33/variation_3.jpeg",
+    "ACL": {
+      "roles": [],
+      "others": {
+        "read": false,
+        "create": false,
+        "update": false,
+        "delete": false,
+        "sub_acl": {
+          "read": false,
+          "create": false,
+          "update": false,
+          "delete": false,
+          "publish": false
+        }
+      }
+    },
+    "is_dir": false,
+    "_version": 1,
+    "title": "variation_3.jpeg",
+    "publish_details": [
+      {
+        "environment": "blt06b642b5ef81890f",
+        "locale": "en-us",
+        "time": "2020-09-30T11:27:38.331Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  }
+}

@@ -1,1 +1,123 @@
-{"bltbd31fa200947d8ac":{"title":"Blogs","url":"/blogs","blog":{"heading":"Recent Blogs","blog_list":[{"heading":"Significance of Content Personalization","_metadata":{"uid":"csd275984655ee394d"},"description":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>","image":{"uid":"blt0ed457eb8a519f99","created_at":"2020-09-30T15:47:35.434Z","updated_at":"2020-09-30T15:47:35.434Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/jpeg","file_size":"191705","tags":[],"filename":"variation_one.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt0ed457eb8a519f99/5f74a89732c8bc0eabe0d0ab/variation_one.jpeg","ACL":[],"is_dir":false,"_version":1,"title":"variation_one.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T15:48:54.088Z","user":"blt828ab71437a69a50","version":1}]},"cta":{"title":"See more","href":"#"}},{"heading":"New Ways of Doing E-commerce","_metadata":{"uid":"cs9812055411d6e0f4"},"description":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>","image":{"uid":"blt9c1b3c9f8f92ff96","created_at":"2020-09-30T11:27:22.778Z","updated_at":"2020-09-30T11:27:22.778Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/jpeg","file_size":"200547","tags":[],"filename":"variation_3.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt9c1b3c9f8f92ff96/5f746b9ab7f15f0eb6a34c33/variation_3.jpeg","ACL":[],"is_dir":false,"_version":1,"title":"variation_3.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T11:27:38.331Z","user":"blt828ab71437a69a50","version":1}]},"cta":{"title":"See more","href":"#"}},{"heading":"Make Your In-App Search Stronger and Flexible","_metadata":{"uid":"cs9789fee8d6ec5a72"},"description":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>","image":{"uid":"bltf85946cacad0f314","created_at":"2020-09-30T11:25:44.569Z","updated_at":"2020-09-30T11:25:44.569Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/jpeg","file_size":"129240","tags":[],"filename":"photo-coffe.jpeg","url":"https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/bltf85946cacad0f314/5f746b3832c8bc0eabe0d08f/photo-coffe.jpeg","ACL":[],"is_dir":false,"_version":1,"title":"photo-coffe.jpeg","publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T11:27:38.331Z","user":"blt828ab71437a69a50","version":1}]},"cta":{"title":"See more","href":"#"}}]},"tags":[],"locale":"en-us","uid":"bltbd31fa200947d8ac","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","created_at":"2020-09-30T16:48:45.943Z","updated_at":"2020-09-30T17:31:29.990Z","ACL":{},"_version":8,"_in_progress":false,"publish_details":[{"environment":"blt06b642b5ef81890f","locale":"en-us","time":"2020-09-30T17:31:32.713Z","user":"blt828ab71437a69a50","version":8}]}}
+{
+  "bltbd31fa200947d8ac": {
+    "title": "Blogs",
+    "url": "/blogs",
+    "blog": {
+      "heading": "Recent Blogs",
+      "blog_list": [
+        {
+          "heading": "Significance of Content Personalization",
+          "_metadata": {"uid": "csd275984655ee394d"},
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>",
+          "image": {
+            "uid": "blt0ed457eb8a519f99",
+            "created_at": "2020-09-30T15:47:35.434Z",
+            "updated_at": "2020-09-30T15:47:35.434Z",
+            "created_by": "blt828ab71437a69a50",
+            "updated_by": "blt828ab71437a69a50",
+            "content_type": "image/jpeg",
+            "file_size": "191705",
+            "tags": [],
+            "filename": "variation_one.jpeg",
+            "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt0ed457eb8a519f99/5f74a89732c8bc0eabe0d0ab/variation_one.jpeg",
+            "ACL": [],
+            "is_dir": false,
+            "_version": 1,
+            "title": "variation_one.jpeg",
+            "publish_details": [
+              {
+                "environment": "blt06b642b5ef81890f",
+                "locale": "en-us",
+                "time": "2020-09-30T15:48:54.088Z",
+                "user": "blt828ab71437a69a50",
+                "version": 1
+              }
+            ]
+          },
+          "cta": {"title": "See more", "href": "#"}
+        },
+        {
+          "heading": "New Ways of Doing E-commerce",
+          "_metadata": {"uid": "cs9812055411d6e0f4"},
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>",
+          "image": {
+            "uid": "blt9c1b3c9f8f92ff96",
+            "created_at": "2020-09-30T11:27:22.778Z",
+            "updated_at": "2020-09-30T11:27:22.778Z",
+            "created_by": "blt828ab71437a69a50",
+            "updated_by": "blt828ab71437a69a50",
+            "content_type": "image/jpeg",
+            "file_size": "200547",
+            "tags": [],
+            "filename": "variation_3.jpeg",
+            "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/blt9c1b3c9f8f92ff96/5f746b9ab7f15f0eb6a34c33/variation_3.jpeg",
+            "ACL": [],
+            "is_dir": false,
+            "_version": 1,
+            "title": "variation_3.jpeg",
+            "publish_details": [
+              {
+                "environment": "blt06b642b5ef81890f",
+                "locale": "en-us",
+                "time": "2020-09-30T11:27:38.331Z",
+                "user": "blt828ab71437a69a50",
+                "version": 1
+              }
+            ]
+          },
+          "cta": {"title": "See more", "href": "#"}
+        },
+        {
+          "heading": "Make Your In-App Search Stronger and Flexible",
+          "_metadata": {"uid": "cs9789fee8d6ec5a72"},
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non...</p>",
+          "image": {
+            "uid": "bltf85946cacad0f314",
+            "created_at": "2020-09-30T11:25:44.569Z",
+            "updated_at": "2020-09-30T11:25:44.569Z",
+            "created_by": "blt828ab71437a69a50",
+            "updated_by": "blt828ab71437a69a50",
+            "content_type": "image/jpeg",
+            "file_size": "129240",
+            "tags": [],
+            "filename": "photo-coffe.jpeg",
+            "url": "https://stag-images.contentstack.io/v3/assets/blt6e3bfe5c2293f578/bltf85946cacad0f314/5f746b3832c8bc0eabe0d08f/photo-coffe.jpeg",
+            "ACL": [],
+            "is_dir": false,
+            "_version": 1,
+            "title": "photo-coffe.jpeg",
+            "publish_details": [
+              {
+                "environment": "blt06b642b5ef81890f",
+                "locale": "en-us",
+                "time": "2020-09-30T11:27:38.331Z",
+                "user": "blt828ab71437a69a50",
+                "version": 1
+              }
+            ]
+          },
+          "cta": {"title": "See more", "href": "#"}
+        }
+      ]
+    },
+    "tags": [],
+    "locale": "en-us",
+    "uid": "bltbd31fa200947d8ac",
+    "created_by": "blt828ab71437a69a50",
+    "updated_by": "blt828ab71437a69a50",
+    "created_at": "2020-09-30T16:48:45.943Z",
+    "updated_at": "2020-09-30T17:31:29.990Z",
+    "ACL": {},
+    "_version": 8,
+    "_in_progress": false,
+    "publish_details": [
+      {
+        "environment": "blt06b642b5ef81890f",
+        "locale": "en-us",
+        "time": "2020-09-30T17:31:32.713Z",
+        "user": "blt828ab71437a69a50",
+        "version": 8
+      }
+    ]
+  }
+}

@@ -1,1 +1,96 @@
-{"blt72da9d9f3df73494":{"title":"Contact","url":"/contact","banner":{"image":{"uid":"blt6380df973014ae0a","created_at":"2020-10-08T10:47:18.940Z","updated_at":"2020-10-09T07:07:02.392Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/jpeg","file_size":"92644","tags":[],"filename":"product-bg.jpg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg","ACL":[{"k":"others","v":{"read":false,"create":false,"update":false,"delete":false,"sub_acl":{"read":false,"create":false,"update":false,"delete":false,"publish":false}}}],"is_dir":false,"_version":2,"title":"product-bg.jpg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-09T07:08:01.012Z","user":"blt828ab71437a69a50","version":2}]},"heading":"Contact Page"},"logo":{"uid":"blt525ebf18d7b990ae","created_at":"2020-10-08T10:47:18.602Z","updated_at":"2020-10-08T10:47:18.602Z","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","content_type":"image/svg+xml","file_size":"3037","tags":[],"filename":"contentstack-subnav-logo.svg","url":"https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt525ebf18d7b990ae/5f7eee368701f06faae1f00a/contentstack-subnav-logo.svg","ACL":[],"is_dir":false,"_version":1,"title":"contentstack-subnav-logo.svg","publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:55:40.166Z","user":"blt828ab71437a69a50","version":1}]},"contact_message":"Drop Us A Message","tags":[],"locale":"en-us","ACL":{},"uid":"blt72da9d9f3df73494","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","created_at":"2020-10-08T10:48:04.362Z","updated_at":"2020-10-08T10:48:04.362Z","_version":1,"_in_progress":false,"publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-09T07:08:01.012Z","user":"blt828ab71437a69a50","version":1}]}}
+{
+  "blt72da9d9f3df73494": {
+    "title": "Contact",
+    "url": "/contact",
+    "banner": {
+      "image": {
+        "uid": "blt6380df973014ae0a",
+        "created_at": "2020-10-08T10:47:18.940Z",
+        "updated_at": "2020-10-09T07:07:02.392Z",
+        "created_by": "blt828ab71437a69a50",
+        "updated_by": "blt828ab71437a69a50",
+        "content_type": "image/jpeg",
+        "file_size": "92644",
+        "tags": [],
+        "filename": "product-bg.jpg",
+        "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt6380df973014ae0a/5f7eee3645c3f10eec5eb58c/product-bg.jpg",
+        "ACL": [
+          {
+            "k": "others",
+            "v": {
+              "read": false,
+              "create": false,
+              "update": false,
+              "delete": false,
+              "sub_acl": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "publish": false
+              }
+            }
+          }
+        ],
+        "is_dir": false,
+        "_version": 2,
+        "title": "product-bg.jpg",
+        "publish_details": [
+          {
+            "environment": "bltd46c24ff66132616",
+            "locale": "en-us",
+            "time": "2020-10-09T07:08:01.012Z",
+            "user": "blt828ab71437a69a50",
+            "version": 2
+          }
+        ]
+      },
+      "heading": "Contact Page"
+    },
+    "logo": {
+      "uid": "blt525ebf18d7b990ae",
+      "created_at": "2020-10-08T10:47:18.602Z",
+      "updated_at": "2020-10-08T10:47:18.602Z",
+      "created_by": "blt828ab71437a69a50",
+      "updated_by": "blt828ab71437a69a50",
+      "content_type": "image/svg+xml",
+      "file_size": "3037",
+      "tags": [],
+      "filename": "contentstack-subnav-logo.svg",
+      "url": "https://stag-images.contentstack.io/v3/assets/blt44d1fc2efff3988b/blt525ebf18d7b990ae/5f7eee368701f06faae1f00a/contentstack-subnav-logo.svg",
+      "ACL": [],
+      "is_dir": false,
+      "_version": 1,
+      "title": "contentstack-subnav-logo.svg",
+      "publish_details": [
+        {
+          "environment": "bltd46c24ff66132616",
+          "locale": "en-us",
+          "time": "2020-10-08T10:55:40.166Z",
+          "user": "blt828ab71437a69a50",
+          "version": 1
+        }
+      ]
+    },
+    "contact_message": "Drop Us A Message",
+    "tags": [],
+    "locale": "en-us",
+    "ACL": {},
+    "uid": "blt72da9d9f3df73494",
+    "created_by": "blt828ab71437a69a50",
+    "updated_by": "blt828ab71437a69a50",
+    "created_at": "2020-10-08T10:48:04.362Z",
+    "updated_at": "2020-10-08T10:48:04.362Z",
+    "_version": 1,
+    "_in_progress": false,
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-09T07:08:01.012Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  }
+}

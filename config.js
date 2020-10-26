@@ -3,7 +3,7 @@
 module.exports = {
   contentstack: {
     parentStack: {
-      // Below provide the default content-type uid's in the arry for your sample app e.g. ['header','footer','home','blog_heading'] etc
+      // Below provide the default content-type uid's in the array for your sample app e.g. ['header','footer','home','blog_heading'] etc
       defaultContentTypes: [],
       defaultLocale: 'en-us',
       childStack: {

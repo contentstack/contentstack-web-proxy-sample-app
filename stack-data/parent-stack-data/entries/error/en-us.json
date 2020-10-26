@@ -1,1 +1,28 @@
-{"blt89248baa45a08f72":{"title":"Error","url":"#","heading":"404","description":"<p>Page not found</p>","cta":{"title":"Back to home","href":"/"},"tags":[],"locale":"en-us","ACL":{},"uid":"blt89248baa45a08f72","created_by":"blt828ab71437a69a50","updated_by":"blt828ab71437a69a50","created_at":"2020-10-08T10:48:07.351Z","updated_at":"2020-10-08T10:48:07.351Z","_version":1,"_in_progress":false,"publish_details":[{"environment":"bltd46c24ff66132616","locale":"en-us","time":"2020-10-08T10:55:52.772Z","user":"blt828ab71437a69a50","version":1}]}}
+{
+  "blt89248baa45a08f72": {
+    "title": "Error",
+    "url": "#",
+    "heading": "404",
+    "description": "<p>Page not found</p>",
+    "cta": {"title": "Back to home", "href": "/"},
+    "tags": [],
+    "locale": "en-us",
+    "ACL": {},
+    "uid": "blt89248baa45a08f72",
+    "created_by": "blt828ab71437a69a50",
+    "updated_by": "blt828ab71437a69a50",
+    "created_at": "2020-10-08T10:48:07.351Z",
+    "updated_at": "2020-10-08T10:48:07.351Z",
+    "_version": 1,
+    "_in_progress": false,
+    "publish_details": [
+      {
+        "environment": "bltd46c24ff66132616",
+        "locale": "en-us",
+        "time": "2020-10-08T10:55:52.772Z",
+        "user": "blt828ab71437a69a50",
+        "version": 1
+      }
+    ]
+  }
+}
