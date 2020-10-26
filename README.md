@@ -8,14 +8,12 @@ Sharing content between stacks is one of the most common requirements that we ha
 
 In this guide, we will create a system that will enable us to share content between stacks by using a web proxy.
 
-![Peek 2020-10-26 1fv1-59](https://user-images.githubusercontent.com/29656920/97140709-3b6bb080-1783-11eb-95c6-4c8b103b7dee.gif)
+Below is a gif showing you the sample app :
 
-## Tutorial
-
-We have created an in-depth tutorial on how you can create 
+![Peek 2020-10-26 12-15](https://user-images.githubusercontent.com/29656920/97141583-ffd1e600-1784-11eb-97cf-b4a12cecdec8.gif)
 
 ## Documentation
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-Learn about [RSS](https://en.wikipedia.org/wiki/RSS)
+Learn about [Sharing Content Between Stacks Using a Web Proxy]()
