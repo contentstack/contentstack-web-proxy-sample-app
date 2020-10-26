@@ -18,7 +18,7 @@ const getEntries = async (contentTypeUid, skip = 0, data = []) => {
   };
   try {
     const response = await axios(
-      `${process.env.PROXYURL}/v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=en-us&include_count=true&skip=${skip}`,
+      `${process.env.PROXYURL}v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=en-us&include_count=true&skip=${skip}`,
       options,
     );
     Entries = await response.data;
@@ -67,7 +67,7 @@ const proxyRequest = (req, res, next) => {
 
   axios({
     method: 'get',
-    url: `${process.env.PROXYURL}/v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
+    url: `${process.env.PROXYURL}v3/content_types/${configVars.contentstack.parentStack.childStack.childStackEntries.blogContentTypeUid}/entries?environment=${process.env.CHILD_STACK_PUBLISH_ENV}`,
     headers,
   })
     .then((response) => {
