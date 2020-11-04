@@ -10,7 +10,7 @@ Sharing content between stacks is one of the most common requirements that we ha
 
 In this guide, we will create a system that will enable us to share content between stacks by using a web proxy.
 
-Below is a gif showing you the sample app :
+This is how the solution works:
 
 ![Peek 2020-10-26 12-15](https://user-images.githubusercontent.com/29656920/97141583-ffd1e600-1784-11eb-97cf-b4a12cecdec8.gif)
 
