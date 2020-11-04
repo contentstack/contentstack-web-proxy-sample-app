@@ -1,2 +1,4 @@
+# ignore file or folders
+
 node_modules
 Procfile

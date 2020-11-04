@@ -14,7 +14,7 @@ dotenv.config({
   path: './.env',
 });
 
-var PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 4000;
 
 /* View is the folder where all the html templates are stored nunjucks looks for that folder to render dynamic templates using the
  * data from Contentstack.
