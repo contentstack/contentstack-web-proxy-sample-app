@@ -8,7 +8,7 @@ const configVars = require('./config');
 // get default entries as mentioned in config file
 
 const getEntries = async (contentTypeUid, skip = 0, data = []) => {
-  let Entries;
+  let entryData;
   const options = {
     method: 'GET',
     headers: {
@@ -21,18 +21,18 @@ const getEntries = async (contentTypeUid, skip = 0, data = []) => {
       `${process.env.PROXYURL}v3/content_types/${contentTypeUid}/entries?environment=${process.env.PARENT_STACK_PUBLISH_ENV}&locale=en-us&include_count=true&skip=${skip}`,
       options,
     );
-    Entries = await response.data;
+    entryData = await response.data;
   } catch (err) {
     return Promise.reject(err);
   }
 
-  skip = Entries.entries.length;
-  data = [...data, ...Entries.entries];
+  skip = entryData.entries.length;
+  data = [...data, ...entryData.entries];
 
-  if (skip === Entries.count) {
+  if (skip === entryData.count) {
     return Promise.resolve(data);
   }
-  if (Entries.entries.length < Entries.count) {
+  if (entryData.entries.length < entryData.count) {
     getEntries(contentTypeUid, R.entries.length, data);
   }
 };
