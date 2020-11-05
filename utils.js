@@ -57,7 +57,7 @@ const getDefaultEntries = async function (req, res, next) {
   next();
 };
 
-// get proxy entry function
+// get proxy entry handler
 
 const proxyRequest = (req, res, next) => {
   const headers = {
