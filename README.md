@@ -18,4 +18,4 @@ This is how the solution works:
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-Learn about [Sharing Content Between Stacks Using a Web Proxy]()
+Learn about [Sharing Content Between Stacks Using a Web Proxy](https://www.contentstack.com/docs/developers/how-to-guides/share-content-between-stacks-using-a-web-proxy/)
